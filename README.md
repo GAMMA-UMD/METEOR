@@ -13,6 +13,9 @@ Under Review at ICRA 2022 | [Preprint](https://arxiv.org/pdf/2109.07648v1.pdf) |
 
 This repository is based on [MMDetection](https://mmdetection.readthedocs.io/en/latest/get_started.html) and [MMAction2](https://mmaction2.readthedocs.io/en/latest/getting_started.html). 
 
+## Download the Dataset
+Download the dataset [**here**](https://umd.app.box.com/s/rys1c4d3dhtge775t6hm9uualkx7yn4q).
+
 ## Dataset Preparation
 
 1. Run the following command to extract frames from the videos:
