@@ -57,7 +57,23 @@ Download the dataset [**here**](https://umd.app.box.com/s/rys1c4d3dhtge775t6hm9u
    ```bash
    python mmaction2/tools/train.py tsn_config.py
    ```
+   
+## Pre-trained Models
 
-## Inference
+* [Object Detection](https://drive.google.com/file/d/17NMvTJZiRrLfSRWwjJd4zx4ELQ9_9uWq/view?usp=sharing)
 
-TODO
+* [Behavior Prediction](https://drive.google.com/file/d/1DPeiTTLZKoOboCTW-kaDDAl0UhNBCtZa/view?usp=sharing)
+
+## Testing
+
+1. Run the following command to initiate the testing process for DETR:
+    
+   ```bash
+   python mmdetection/tools/test.py detr_config.py detr_pretrained.pth --eval bbox mAP recall
+   ```
+
+2. Run the following command to initiate the testing process for TSN:
+    
+   ```bash
+   python mmaction2/tools/test.py tsn_config.py tsn_pretrained.pth --eval mmit_mean_average_precision
+   ```
