@@ -77,3 +77,29 @@ Download the dataset [**here**](https://umd.app.box.com/s/rys1c4d3dhtge775t6hm9u
    ```bash
    python mmaction2/tools/test.py tsn_config.py tsn_pretrained.pth --eval mmit_mean_average_precision
    ```
+   
+## Swin Detection (Scripts/Swin-Transformer-Object-Detection)
+ 
+1. Installation (https://github.com/open-mmlab/mmdetection/blob/master/docs/en/get_started.md)
+
+2. DATA ([Json file](https://drive.google.com/drive/folders/1BV2EUYH0G2rAIRrOwJaeWPkehaqEtuzg?usp=sharing)): 
+ Change the frame path in json file to your own path:
+ e.g. "file_name": "/scratch0/xijunwang/data/METEOR_Dataset/Frame_XML_Annotations/REC_2020_10_12_01_26_57_F/frame_000000.JPG" -> "file_name": "/xxx/REC_2020_10_12_01_26_57_F/frame_000000.JPG"
+
+3. Train:
+   ```bash
+   tools/dist_train.sh configs/swin/mask_rcnn_swin_tiny_patch4_window7_mstrain_480-800_adamw_1x_metor.py 8 --cfg-options model.pretrained=<PRETRAIN_MODEL>
+   ```
+   
+4. Reference 
+   * [Swin-Transformer-Object-Detection](https://github.com/SwinTransformer/Swin-Transformer-Object-Detection)
+   
+   
+ 
+
+
+
+
+
+ 
+ 
