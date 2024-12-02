@@ -1,9 +1,9 @@
 # METEOR
 This repository contains the official code for the paper: **METEOR: A Massive Dense & Heterogeneous Behavior Dataset for Autonomous Driving**.
 
-*Rohan Chandra, Mridul Mahajan, Rahul Kala, Rishitha Palugulla, Chandrababu Naidu, Alok Jain, and Dinesh Manocha*
+*Rohan Chandra, Xijun Wang, Mridul Mahajan, Rahul Kala, Rishitha Palugulla, Chandrababu Naidu, Alok Jain, and Dinesh Manocha*
 
-Under Review at ICRA 2022 | [Preprint](https://arxiv.org/pdf/2109.07648v1.pdf) | [Project Page](https://gamma.umd.edu/meteor/)
+ICRA 2023 | [Preprint]([https://arxiv.org/pdf/2109.07648v1.pdf](https://arxiv.org/abs/2109.07648)) | [Project Page](https://gamma.umd.edu/meteor/)
 
 <img src="https://github.com/MridulMahajan44/METEOR/blob/main/gifs/github_gif.gif"/> <img src="https://github.com/MridulMahajan44/METEOR/blob/main/gifs/WL.gif"/>
 
