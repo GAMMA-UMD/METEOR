@@ -3,7 +3,7 @@ This repository contains the official code for the paper: **METEOR: A Massive De
 
 *Rohan Chandra, Xijun Wang, Mridul Mahajan, Rahul Kala, Rishitha Palugulla, Chandrababu Naidu, Alok Jain, and Dinesh Manocha*
 
-ICRA 2023 | [Preprint]([https://arxiv.org/abs/2109.07648) | [Project Page](https://gamma.umd.edu/meteor/)
+ICRA 2023 | [Preprint](https://arxiv.org/abs/2109.07648) | [Project Page](https://gamma.umd.edu/meteor/)
 
 <img src="https://github.com/MridulMahajan44/METEOR/blob/main/gifs/github_gif.gif"/> <img src="https://github.com/MridulMahajan44/METEOR/blob/main/gifs/WL.gif"/>
 
