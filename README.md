@@ -14,7 +14,7 @@ ICRA 2023 | [Preprint](https://arxiv.org/abs/2109.07648) | [Project Page](https:
 This repository is based on [MMDetection](https://mmdetection.readthedocs.io/en/latest/get_started.html) and [MMAction2](https://mmaction2.readthedocs.io/en/latest/getting_started.html). 
 
 ## Download the Dataset
-Download the dataset [**here**](https://umd.app.box.com/s/rys1c4d3dhtge775t6hm9uualkx7yn4q).
+Download the dataset [**here**](https://huggingface.co/datasets/XijunWang/METEOR/tree/main).
 
 ## Dataset Preparation
 
